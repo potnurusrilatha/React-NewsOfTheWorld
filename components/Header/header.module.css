@@ -1,0 +1,17 @@
+.header {
+    background-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagetitle {
+    color: black;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+
+}

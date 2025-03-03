@@ -1,0 +1,17 @@
+.social {
+   display: flex;
+   gap: 15px;
+   align-items:center ;
+}
+
+.social-img {
+ width: 20px;
+ height: 20px;
+ transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social-img:hover {
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+

@@ -1,0 +1,25 @@
+.nav {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding:8px 16px;
+    text-transform: capitalize;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.navLinks li {
+    display: inline;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
