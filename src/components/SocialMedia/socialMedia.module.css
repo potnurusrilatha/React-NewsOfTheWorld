@@ -1,10 +1,12 @@
-.social {
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+.socialMedia {
    display: flex;
    gap: 15px;
    align-items:center ;
 }
 
-.social-img {
+.sociallogo-img {
  width: 20px;
  height: 20px;
  transition: transform 0.3s ease; /* Smooth hover effect */
@@ -13,5 +15,6 @@
 .social-img:hover {
   transform: scale(1.1); /* Slightly enlarge icons on hover */
 }
+
 
 

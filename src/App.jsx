@@ -1,8 +1,8 @@
-import BreakingNews from '../components/BreakingNews'
-import Header from '../components/Header'
-import NavMenu from '../components/NavMenu'
-import FeaturedContainer from '../featuredContainer'
-import News from '../News'
+// import BreakingNews from '../components/BreakingNews'
+import FeaturedContainer from './components/FeatureContainer'
+import Header from './components/Header'
+import Navigation from './components/Navigation'
+// import News from '../News'
 
 
 // import {articles} from './data/data'
@@ -13,10 +13,14 @@ function App() {
 
   return (
     <>
-    <Header title= "NEWS OF THE WORLD"/>
-    <NavMenu />
+    <Header />
+    <Navigation />
     <FeaturedContainer />
-    <News />
+
+
+    
+   
+    {/* <News /> */}
      {/* {articles.map((item, index) => <img key={index} src={getImageUrl(item.image)}></img>)} */}
     </>
   )

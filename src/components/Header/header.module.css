@@ -1,0 +1,24 @@
+.header {
+    background-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 48px;
+    /* word-spacing: 10px; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+}
+
+.pagetitle {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    flex: 1 0 60%;
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.phone {
+    border: 1px solid black;
+    padding: 8px
+}

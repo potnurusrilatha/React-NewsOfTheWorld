@@ -1,0 +1,24 @@
+.mainArticle {
+    /* background-color: blueviolet; */
+    border: 1px solid #333;
+    flex: 0 0 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+}
+
+.mainArticle img {
+    width: 100%;
+    height: auto;
+}
+
+.mainArticle h2 {
+    font-size: 2.5rem;
+}
+
+.category {
+    text-transform: capitalize;
+}
+
+.category span {
+    font-weight: 700;
+}
