@@ -1,12 +1,11 @@
 .nav {
-    background-color: black;
+    background-color: #333;
     display: flex;
     justify-content: center;
 }
 
-.date{
+.date {
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     padding: 8px 16px;
 }
-

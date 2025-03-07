@@ -1,24 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
 .header {
-    background-color: #fff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 24px 48px;
-    /* word-spacing: 10px; */
-    /* text-align: center; */
-    display: flex;
     align-items: center;
+    display: flex;
+    padding: 24px 48px;
 }
 
-.pagetitle {
-    font-family: "UnifrakturMaguntia", cursive;
-    font-weight: 400;
-    font-style: normal;
+.pageTitle {
+    font-family: "UnifrakturMaguntia", serif;
+  font-weight: 400;
+  font-style: normal;
     flex: 1 0 60%;
-    color: black;
     font-size: 4rem;
     text-align: center;
 }
 
 .phone {
-    border: 1px solid black;
-    padding: 8px
+    border: 1px solid #000;
+    padding: 8px;
 }

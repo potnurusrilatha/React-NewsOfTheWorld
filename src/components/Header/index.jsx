@@ -1,17 +1,14 @@
-import SocialMedia from '../SocialMedia'
 import styles from './header.module.css'
-// import { SocialLogo } from 'social-logos';
+import SocialMedia from '../SocialMedia'
 
-
-const Header = ( ) => {
+const Header = () => {
     return (
         <header className={styles.header}>
-            <SocialMedia />    
-            <h1 className={styles.pagetitle}>News Of The World</h1>
-            <div className={styles.phone}>123-456-789</div>    
-
+            <SocialMedia />
+            <h1 className={styles.pageTitle}>News of the World</h1>
+            <div className={styles.phone}>123-456-789</div>
         </header>
-    )           
-}
+    )
 
-export default Header
+}
+ export default Header

@@ -36,5 +36,24 @@ export const articles = [
 ]
 
 
-export const featuredArticle = articles[Math.floor(Math.random) * articles.length]
+const returnArticle = (articlesArray) => {
+    const articleNumber = Math.floor(Math.random() * articlesArray.length)
+    const selectedArticle = articlesArray[articleNumber]
+
+    articlesArray.splice(articleNumber, 1)
+
+    return selectedArticle
+}
+
+export const sportsCategory = articles.filter(item => item.category.toLowerCase() === "sport")
+export const swedenCategory = articles.filter(item => item.category.toLowerCase() === "sweden")
+export const worldCategory = articles.filter(item => item.category.toLowerCase() === "world")
+export const crimeCategory = articles.filter(item => item.category.toLowerCase() === "crime")
+export const entertainmentCategory = articles.filter(item => item.category.toLowerCase() === "entertainment")
+
+export const sportsArticles = [returnArticle(sportsCategory), returnArticle(sportsCategory)]
+export const recentArticles = [returnArticle(swedenCategory), returnArticle(worldCategory), returnArticle(crimeCategory), returnArticle(entertainmentCategory)]
+
+export const featuredArticle = returnArticle(articles)
+
 

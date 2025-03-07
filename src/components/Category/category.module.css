@@ -1,0 +1,13 @@
+.category {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.categoryTitle {
+   flex: 0 0 100%;
+}
+
+.category .article {
+   flex: 0 0 33%;
+   padding: 8px;
+}

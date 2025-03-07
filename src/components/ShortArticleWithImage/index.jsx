@@ -1,15 +1,13 @@
+import { getImageUrl } from '../../utils/functions'
+import styles from "./shortArticleWithImage.module.css"
 
-import {articles} from "../../data/data"
-import styles from './ShortArticleWithImage.module.css'
-
-const article = articles[6];
-
-const ShortArticleWithImage = () = {
+const ShortArticleWithImage = ({article}) => {
     return (
-            <div className={styles.article}>
+        <div className={styles.article}>
             <img src={getImageUrl(article.image)} />
             <h3>{article.headline}</h3>
-            </div>
+            <p>{article.deck}</p>
+        </div>
     )
 }
 

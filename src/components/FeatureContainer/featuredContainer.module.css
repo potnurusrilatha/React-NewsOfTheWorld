@@ -1,5 +1,9 @@
 .featuredContainer {
-   
     display: flex;
     padding: 24px 48px;
+}
+
+.leftContainer, 
+.rightContainer {
+    flex: 0 0 25%;
 }
